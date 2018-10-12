@@ -1,7 +1,7 @@
 @extends('master')
 
-@section('title', $destination . ' travel packages from Singapore Travel Agencies')
-@section('description', ' Going ' .  $destination . '? Singapore Travel Agencies deals going to ' .  $destination . '.')
+@section('title', ucfirst($destination) . ' travel packages from Singapore Travel Agencies')
+@section('description', ' Going ' .  ucfirst($destination) . '? Singapore Travel Agencies deals going to ' .  ucfirst($destination) . '.')
 
 @section('content')
 
