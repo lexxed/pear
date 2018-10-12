@@ -129,7 +129,7 @@ body {
 
 
 .header-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.49),rgba(0, 0, 0, 0.79)),url('http://travelpearsg-new.localhost:8000/img/beach02.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.49),rgba(0, 0, 0, 0.79)),url('https://res.cloudinary.com/dncotieoi/image/upload/v1539343496/beach02_xuzeet.jpg');
 }
 .is-outlined {
   background-color:transparent;
