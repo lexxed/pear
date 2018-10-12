@@ -53,10 +53,10 @@
       <div class="column is-4">
         <div class="box related-list">
           <p class="autoplay">
-            <span class="autoplay-title">Related travel packages</span>
+            <span class="autoplay-title">Ads</span>
           </p>
 
-          bbbbb
+          @include('partials.adsense')          
         </div>
       </div>      
 

@@ -10,7 +10,6 @@
       <div class="columns">
         <div class="column">
           <a href="{{ url('/') }}">Home</a> > 
-          <a href="{{ url('/hotels/thailand') }}">Thailand</a> >
           <a href="{{ url('/hotels/thailand/' . $destination) }}">{{ ucfirst($destination) }}</a>
         </div>
       </div>
@@ -78,18 +77,10 @@
           <p class="autoplay">
             <span class="autoplay-title">Ads</span>
           </p>
-          
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <!-- TravelpearNew01 -->
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-0555574208214622"
-               data-ad-slot="6171108875"
-               data-ad-format="auto"
-               data-full-width-responsive="true"></ins>
-          <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
+
+          @include('partials.adsense')          
+
+
 
 
         </div>

@@ -10,7 +10,7 @@
       <div class="columns">
         <div class="column">
           <a href="{{ url('/') }}">Home</a> > 
-          <a href="{{ url('/hotels/thailand') }}">Thailand</a> >
+          Popular travel packages
         </div>
       </div>
     </div>
@@ -70,10 +70,10 @@
       <div class="column is-4">
         <div class="box related-list">
           <p class="autoplay">
-            <span class="autoplay-title">Travel packages going to:</span>
+            <span class="autoplay-title">Ads</span>
           </p>
 
-          XXXX
+          @include('partials.adsense')          
         </div>
       </div>      
 

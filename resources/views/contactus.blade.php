@@ -49,9 +49,9 @@
       <div class="column is-4">
         <div class="box related-list">
           <p class="autoplay">
-            <span class="autoplay-title">Travel packages going to:</span>
+            <span class="autoplay-title">Ads</span>
           </p>
-          XXXX
+          @include('partials.adsense')      
 
         </div>
       </div>      
