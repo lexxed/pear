@@ -11,8 +11,7 @@
       <div class="columns">
         <div class="column">
           <a href="{{ url('/') }}">Home</a> > 
-          <a href="{{ url('/hotels/thailand') }}">Thailand</a> >
-          
+                    
         </div>
       </div>
     </div>
@@ -53,10 +52,11 @@
       <div class="column is-4">
         <div class="box related-list">
           <p class="autoplay">
-            <span class="autoplay-title">Related travel packages</span>
+            <span class="autoplay-title">Ads</span>
           </p>
 
-          bbbbb
+          @include('partials.adsense')      
+          
         </div>
       </div>      
 

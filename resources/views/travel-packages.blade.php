@@ -10,7 +10,7 @@
       <div class="columns">
         <div class="column">
           <a href="{{ url('/') }}">Home</a> > 
-          <a href="{{ url('/hotels/thailand/' . $destination) }}">{{ ucfirst($destination) }}</a>
+          <a href="{{ url('singapore/travel-packages/' . $destination) }}">{{ ucfirst($destination) }}</a>
         </div>
       </div>
     </div>
