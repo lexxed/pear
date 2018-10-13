@@ -80,9 +80,6 @@
 
           @include('partials.adsense')          
 
-
-
-
         </div>
 
         <div class="box related-list">
