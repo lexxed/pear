@@ -9,8 +9,7 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          <a href="{{ url('/') }}">Home</a> > 
-          <a href="{{ url('singapore/travel-packages/' . $destination) }}">{{ ucfirst($destination) }}</a>
+          @include('partials.adsense')    
         </div>
       </div>
     </div>

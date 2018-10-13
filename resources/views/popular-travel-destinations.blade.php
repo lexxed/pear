@@ -27,11 +27,6 @@
            
                   <div class="tagcloud">
                   <a href="{{ url('singapore/travel-packages/Adelaide') }}" class="tag3">Adelaide</a>  
-                  <a href="{{ url('singapore/travel-packages/Aegean') }}" class="tag3">Aegean</a>  
-                  <a href="{{ url('singapore/travel-packages/Agra') }}" class="tag1">Agra</a>  
-                  <a href="{{ url('singapore/travel-packages/Alaska') }}" class="tag2">Alaska</a>  
-                  <a href="{{ url('singapore/travel-packages/Amsterdam') }}" class="tag1">Amsterdam</a>  
-                  <a href="{{ url('singapore/travel-packages/Anaheim') }}" class="tag2">Anaheim</a>  
                   <a href="{{ url('singapore/travel-packages/Asia') }}" class="tag3">Asia</a>  
                   <a href="{{ url('singapore/travel-packages/Auckland') }}" class="tag2">Auckland</a>  
                   <a href="{{ url('singapore/travel-packages/Australia') }}" class="tag6">Australia</a>  
