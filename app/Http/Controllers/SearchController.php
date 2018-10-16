@@ -35,11 +35,16 @@ class SearchController extends Controller
 			$message = "Sorry, no results found for ";
         	$packages = Package::where('status', '=', 'live')  
         					->orderBy('cpc', 'desc')
-        					//->limit(10)
-        					//->get();
         					->paginate(20);
-		}        				    	
+		}     
 
+        if(empty($request->q)) {
+            $message = "Please key in something in the search box";
+            $packages = Package::where('status', '=', 'xxx')  
+                            ->orderBy('cpc', 'desc')
+                            ->paginate(10);            
+
+        }    
     	return view('search')->with(['packages' => $packages, 'q' => $request->q,'message' => $message]);
     }   
 }

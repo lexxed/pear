@@ -9,8 +9,7 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          <a href="{{ url('/') }}">Home</a> > 
-          Popular travel packages
+          @include('partials.adsense')          
         </div>
       </div>
     </div>
