@@ -10,7 +10,7 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          <a href="{{ url('/') }}">Home</a> > 
+          @include('partials.adsense')      
                     
         </div>
       </div>
@@ -27,7 +27,7 @@
 
             
             <div class="box"><!-- box 2-->
-              <p><strong>Travel agents starting with </strong></p>
+              <p><strong>Travel agents starting with '{{ ucfirst($start) }}'</strong></p>
 
 
                     @foreach($agency as $agency)
