@@ -36,7 +36,7 @@
 
               <div class="dleft"><b>Destination:</b></div>
               <div class="dright"> 
-                {{ $package->destination }}
+                {!! $package->destination !!}
               </div>
               <div class="spacerp">&nbsp;</div>                   
 

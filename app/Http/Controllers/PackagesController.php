@@ -15,7 +15,7 @@ class PackagesController extends Controller
         //$cities = Cities::where('slug', $cityslug)->firstOrFail();
         //$city = $cities->city;
         $message = '';
-        
+
         $destination = str_replace("-"," ",$destination);
 
 
