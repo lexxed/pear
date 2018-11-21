@@ -22,10 +22,11 @@ Route::get('search', array('uses' => 'SearchController@search'));
 
 
 
+Route::get('/singapore/travel-packages/{page}/{destination}.html', function($page,$destination){ 
+	return redirect()->action('PackagesController@show', ['page' => $page, 'destination' => $destination], 301);
+}); 
 
-Route::get('/singapore/travel-packages/1/{destination}.html', function($destination){ 
-	return redirect()->action('PackagesController@show', ['destination' => $destination], 301);
-});
+
 
 Route::get('singapore/travel-packages/{destination}', 'PackagesController@show');
 Route::get('popular-travel-packages', 'PackagesController@popular');
