@@ -26,7 +26,7 @@
 
 
     We all have the experience of searching through newspapers classifieds everyday, going to chinatown to 
-    look for the cheapest travel packages..<br><br>
+    look for the cheapest travel packages...<br><br>
     Travelpear is created to make it easier for you to find the ideal travel package you want.
     <br><br>    
     Travelpear have a team of editors that compiles travel packages from Travel Agencies in Singapore.  
